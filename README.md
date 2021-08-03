@@ -681,7 +681,7 @@ plt.show()
 ```
 
 
-![png](output_31_0.png)
+![png](model_cv.png)
 
 
 The best based model seems to be Gradient Boosting Classifier, with f1 score around 0.8 to 0.85. We will take this and move onto hyper parameter tuning.
@@ -963,7 +963,7 @@ plt.xticks(rotation=45);
 ```
 
 
-![png](output_42_0.png)
+![png](feature_importance.png)
 
 
 The most important feature is `prev_call_duration` followed by `cpi`, `num_contacts_prev` and `days_since_last_call`.
